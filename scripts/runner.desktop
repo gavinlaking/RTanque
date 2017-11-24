@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=RTanque
+Comment=A fun game.
+GenericName=RTanque
+Exec=gnome-terminal -e /home/vagrant/Desktop/runner
+Icon=/vagrant/resources/images/body.png
+Type=Application
+Terminal=true
+StartupNotify=true
+Categories=GNOME;Games;
+MimeType=text/plain;

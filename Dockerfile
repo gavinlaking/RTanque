@@ -37,7 +37,7 @@
 FROM ubuntu
 
 RUN apt-get update -y
-RUN apt-get install -y build-essential git libsdl2-dev libsdl2-ttf-dev libpango1.0-dev libgl1-mesa-dev libopenal-dev libsndfile-dev ruby-dev freeglut3-dev
+# RUN apt-get install -y build-essential git libsdl2-dev libsdl2-ttf-dev libpango1.0-dev libgl1-mesa-dev libopenal-dev libsndfile-dev ruby-dev freeglut3-dev
 
 RUN usr/sbin/useradd --create-home --home-dir /home/development --shell /bin/bash development
 RUN chown -R development:development /home/development
