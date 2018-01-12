@@ -54,7 +54,10 @@ Vagrant.configure("2") do |config|
       echo 'source /home/vagrant/.bashrc' >> /home/vagrant/.bash_profile
       chown vagrant:vagrant /home/vagrant/.bash_profile
 
-      gnome-desktop-item-edit --create-new ~/Desktop/runner.desktop
+      mkdir -p /home/vagrant/Desktop
+      chown vagrant:vagrant /home/vagrant/Desktop
+
+      gnome-desktop-item-edit --create-new /home/vagrant/Desktop/runner.desktop
 
       cp -f /vagrant/scripts/runner /home/vagrant/Desktop/runner
       chown vagrant:vagrant /home/vagrant/Desktop/runner

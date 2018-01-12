@@ -1,3 +1,12 @@
+# Updated RTanque
+
+Install Vagrant on MacOS or Linux and then:
+
+git clone https://github.com/gavinlaking/RTanque.git
+git checkout upgrade_gosu
+vagrant up
+
+
 # RTanque [![Build Status](https://travis-ci.org/awilliams/RTanque.png?branch=dev)](https://travis-ci.org/awilliams/RTanque) [![CodeClimate](https://codeclimate.com/github/awilliams/RTanque.png)](https://codeclimate.com/github/awilliams/RTanque)
 
 **What is this?**
